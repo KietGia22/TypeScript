@@ -1,9 +1,9 @@
 import restaurants from './restaurants';
 
 let hour: number = new Date().getHours()
-const dollarSigns = '$$';
-const deliveryTimeMax = 90;
-const maxDistance = 10;
+const dollarSigns: string = '$$';
+const deliveryTimeMax: number = 90;
+const maxDistance: number = 10;
 let result: string;
 
 const priceBracket: number = dollarSigns.length;
